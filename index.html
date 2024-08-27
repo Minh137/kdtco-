@@ -17,45 +17,185 @@
 </head>
 <body>
     <div class="container position-relative pl-300">
-        <header class="position-absolute">
-            <div>로고</div>
-            <div>로그인창</div>
-            <div>이미지배너</div>
-        </header>
-        <div class="row">
-            <div class="col-6">
-                <div class="comu-box">
-                    <h2>Our Gallery</h2>
-                    <div class="photos-gallery clearfix">
-                        <!--loop -->
-                        <div class="picture">
-                           <a href="#"><img src="images/001.jpg" alt="001"></a>
-                        </div>
-                        <div class="picture">
-                            <a href="#"><img src="images/002.jpg" alt="002"></a>
-                        </div>
-                        <div class="picture">
-                           <a href="#"><img src="images/003.jpg" alt="003"></a>
-                        </div>
-                        <div class="picture">
-                            <a href="#"><img src="images/004.jpg" alt="004"></a>
-                        </div>
-                        <!-- /loop -->  
+       <header class="position-absolute">
+          <div class="logo"><a href="#"><img src="images/logo.png" alt="kdt community"></a></div>
+          <div class="login">
+             <input type="text" class="form-control" name="userid" id="userid" placeholder="아이디">
+             <input type="password" class="form-control" name="userpass" id="userpass" placeholder="비밀번호">
+             <div class="text-right"><label><input type="checkbox" name="rid" value="ok" /> 아이디 저장</label></label></div>
+             <button type="submit" class="btn btn-success btn-block">전송</button>
+          </div>
+          <div>이미지배너</div>
+       </header>
+       <div class="row">
+          <div class="col-6">
+            <div class="comu-box">
+               <h2>Our Gallery</h2>
+               <div class="photos-gallery clearfix">
+                <!--loop -->
+                   <div class="picture">
+                      <a href="#"><img src="images/upload/001.jpg" alt="001">
+                         <div class="txt-box">제목1입니다.제목4입니다.</div>
+                      </a>
+                   </div>
+                   <div class="picture">
+                      <a href="#"><img src="images/upload/002.jpg" alt="002">
+                        <div class="txt-box">제목2입니다.제목4입니다.</div>
+                      </a>
                     </div>
-                </div>
+                   <div class="picture">
+                      <a href="#"><img src="images/upload/003.jpg" alt="003">
+                        <div class="txt-box">제목3입니다.제목4입니다.</div>
+                      </a>
+                   </div>
+                   <div class="picture">
+                      <a href="#"><img src="images/upload/004.jpg" alt="004">
+                        <div class="txt-box">제목4입니다.제목4입니다.</div>
+                      </a>
+                   </div>
+                 <!-- /loop -->  
+               </div> 
             </div>
-            <div class="col-6">
-                <div class="comu-box">2</div>
-            </div>
-            <div class="col-6">
-                <div class="comu-box">3</div>
-            </div>
-            <div class="col-6">
-                <div class="comu-box">4</div>
-            </div>
-        </div>
+          </div>
+          <div class="col-6">
+            <div class="comu-box">
+               <h2>Notice</h2>
+   
+               <ul class="noticeul">
+                  <li>
+                     <a href="#">
+                        <span class="notice notice1">공지</span> 공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>     
+                  <li>
+                     <a href="#">
+                        <span class="notice notice2">알림</span> 공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                        <span class="notice notice3">이벤트</span> 공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                        <span class="notice notice1">공지</span> 공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                        <span class="notice notice4">추천</span> 공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                        <span class="notice notice1">공지</span> 공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                        <span class="notice notice1">공지</span> 공지사항 게시판 입니다. 공지사항 게시판 입니다.
+                        공지사항 게시판 입니다.
+                        공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                        <span class="notice notice1">공지</span> 공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>               
+               </ul>
 
-        <footer>Copyright</footer>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="comu-box">
+               <h2>Blog</h2>
+               <ul class="blogul">
+                    <li>
+                    <a href="#" class="blogs">
+                        <div class="thumb">
+                            <img src="images/004.jpg" alt="004">
+                        </div>
+                    </a>
+                        <div class="blog-text">
+                            <h3>기사의 제목을 넣음</h3>
+                            <p>국회는 법률에 저촉되지 아니하는 범위안에서 의사와 내부규율에 관한 규칙을 제정할 수 있다. 공무원인 근로자는 법률이 정하는 자에 한하여 단결권·단체교섭권 및 단체행동권을 가진다.</p>
+                            <p>헌법재판소 재판관의 임기는 6년으로 하며, 법률이 정하는 바에 의하여 연임할 수 있다. 국가는 여자의 복지와 권익의 향상을 위하여 노력하여야 한다. 대통령은 조약을 체결·비준하고, 외교사절을 신임·접수 또는 파견하며, 선전포고와 강화를 한다.</p>
+                        </div>
+                    
+                </li>
+               </ul>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="comu-box">
+               <h2>Community</h2>
+               <ul class="noticeul">
+                  <li>
+                     <a href="#">
+                        공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>     
+                  <li>
+                     <a href="#">
+                        <span class="blank"></span><i class="ri-corner-down-right-line"></i> 공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                        <span class="blank"></span><span class="blank"></span><i class="ri-corner-down-right-line"></i> 공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                         공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                         공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                         공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                        공지사항 게시판 입니다. 공지사항 게시판 입니다.
+                        공지사항 게시판 입니다.
+                        공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>  
+                  <li>
+                     <a href="#">
+                         공지사항 게시판 입니다.
+                     </a>
+                     <span class="ndate">2024.07.31</span>
+                  </li>               
+               </ul>
+            </div>
+          </div>
+       </div>
+
+       <footer>Copyright</footer>
     </div>
 </body>
 </html>
